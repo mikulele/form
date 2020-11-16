@@ -1,0 +1,77 @@
+*{margin: 0;padding: 0;}
+@font-face{
+    font-family: 'poppins-regular';
+    src: url('Poppins-Regular.ttf');
+}
+@font-face{
+    font-family: 'poppins-semibold';
+    src: url('Poppins-SemiBold.ttf');
+}
+h1, p{
+    font-family: 'poppins-semibold';
+    color: #333;
+}
+input, input::placeholder, span{
+    font-family: 'poppins-regular';
+}
+body{
+    background-image: url('bg.png');
+    padding: 10vh;
+}
+.background{
+    max-width: 600px;
+    height: auto ;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+h1{
+    font-size: 40px;
+}
+input{
+    border: none;
+    border-bottom: 1.5px solid #ababab;
+    outline: none;
+    font-size: 16px;
+    line-height: 26px;
+}
+.biodata, .alasan, .rate, .suka{
+    margin-bottom: 20px;
+}
+.biodata .nama-kamu{
+    margin-right: 50px;
+}
+.suka label{
+    margin-right: 20px;
+}
+p{
+opacity: .8;
+}
+.submit input{
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+.submit input:hover{
+    background-color: #fff;
+    border: solid 1px #2a2a2a;
+    color: #2a2a2a;
+    padding: 9px 20px;
+    transition: .3s ease;
+}
+p span{
+    margin-right: 20px;
+    margin-left: 4px;
+}
+.rate input{
+    margin-right: 20px;
+}
+
+
